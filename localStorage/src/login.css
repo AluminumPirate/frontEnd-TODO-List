@@ -1,0 +1,63 @@
+ html, body, div, span, applet, object, iframe, 
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+   del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, 
+   dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, 
+   tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body, html {
+    height: 90%;
+    min-height: 100%;
+}
+
+input{
+  width: 40%;
+  font-size: 2vh;
+}
+
+.container {
+    height: 100%;
+}
+
+.login-box {
+    height: 30vh;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    display:none;
+}
+
+.buttons
+{
+  display:flex;
+  justify-content:space-around;
+  padding:8px;
+}
+
+.buttons input {
+    width:40%;
+}
+
+.button-wrapper {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#main-div {
+  /*max-height: 70vh;*/
+  /*max-width: 250vh;*/
+  margin-left: 30vh !important;
+  margin-right: 30vh !important;
+}
+.w3-button:hover{
+  background-color: red!important;
+}

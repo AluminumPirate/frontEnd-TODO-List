@@ -1,0 +1,112 @@
+ html, body, div, span, applet, object, iframe, 
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+   del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, 
+   dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, 
+   tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body, html {
+    height: 90%;
+    min-height: 100%;
+}
+p, span {
+	/*color: black; !important*/
+	color: black;
+	text-align: left;
+}
+
+div {
+ 	height:auto;
+}
+
+/*p {
+  color: blue;
+}*/
+
+h2 {
+    font-weight: bold;
+}
+
+h4 {
+  color: blue;
+  font-size: 25px;
+}
+
+
+div.sticky {
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.task-div {
+  /*border: 2px solid red !important ;*/
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px 0px; background-color: rgb(170, 212, 179);
+  -webkit-box-shadow: 25px 25px 5px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 25px 25px 5px -13px rgba(0,0,0,0.75);
+  -o-box-shadow: 25px 25px 5px -13px rgba(0,0,0,0.75);
+}
+
+
+
+/* Style buttons */
+.btn {
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 4px 5px; /* Some padding */
+  margin: 2px;
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: white !important;
+}
+
+.edit {
+  background-color: blue; /* Blue background */
+}
+
+.trash {
+  background-color: red; /* Blue background */
+}
+
+.hide {
+    background-color: red; /* Blue background */
+}
+
+.comment {
+  border-bottom: 1px solid black;
+}
+
+#logout-button {
+	margin-top: 2px;
+	margin-right: 3px;
+}
+
+#main-div {
+	/*border: solid black 1px;*/
+	height: 92vh;
+	margin: 10px;
+}
+
+#first-button-div {
+	justify-content: left;
+	text-align: left;
+}
+
+
+#add-task-panel {
+ border-radius: 15px;
+
+}
